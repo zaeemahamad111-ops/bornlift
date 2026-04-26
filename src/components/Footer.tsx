@@ -13,18 +13,8 @@ export default function Footer() {
         {/* Footer Content Columns */}
         <div className="col-span-12 lg:col-span-5 flex flex-col justify-between pr-12">
           <div className="space-y-6">
-            <h5 className="font-label-technical text-label-technical text-zinc-500 uppercase">SUBSCRIBE</h5>
-            <p className="font-body-md text-zinc-400">Receive updates on our latest technical releases and innovations.</p>
-            <div className="relative mt-4">
-              <input 
-                type="email" 
-                placeholder="EMAIL ADDRESS" 
-                className="w-full bg-zinc-950 border border-zinc-800 text-white font-label-technical p-4 focus:ring-1 focus:ring-[#C0FF00] focus:border-[#C0FF00] transition-colors placeholder:text-zinc-700 uppercase"
-              />
-              <button className="absolute right-2 top-1/2 -translate-y-1/2 bg-[#C0FF00] text-black font-bold font-label-technical px-6 py-2 hover:bg-white transition-colors">
-                SIGN UP
-              </button>
-            </div>
+            <h5 className="font-label-technical text-label-technical text-white uppercase text-xl italic tracking-tighter">BORNLIFT</h5>
+            <p className="font-body-md text-zinc-500 max-w-sm">Premium technical equipment engineered for the highest level of human performance.</p>
           </div>
 
           <div className="mt-16">

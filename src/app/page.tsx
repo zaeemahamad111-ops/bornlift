@@ -41,7 +41,7 @@ export default function Home() {
         
         <div className="flex overflow-x-auto custom-scrollbar gap-6 md:gap-8 px-6 md:px-8 pb-12 snap-x snap-mandatory">
           <div className="flex-none w-[75vw] sm:w-[45vw] md:w-[30vw] lg:w-[22vw] snap-start relative group cursor-pointer">
-            <Link href="/product/oxygen-core">
+            <Link href="/product/kinetic-shell-v1">
               <div className="relative overflow-hidden aspect-[3/4] mb-6 border border-zinc-900 group-hover:border-[#C0FF00]/50 transition-colors">
                 <img className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" alt="product shot" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBVHC-_rmQ1Ysjw0CNW7LhaPphYcHl1XLn0CgUZ7TQ4Qs2cJ7juAJBGWujSYDWHDtmifvC0l0cdVP-zEG-sdY5aF71IUjiJcvQXKOqRwkM6VAc6CkhBeftZhTCcpVpf7mGepQEmxu74giLZESW5en9atxSGi-GKZbFG8WGncW1o8bHVuc4jkD5QDNyAnqNWrasyIx9vdnztDj3jWtFYJoEowO3sBlI4JNs2UVy319FiLYDpHNkJ_qOrsbDtewPK7FFHJQJzyyzroIk"/>
               </div>
@@ -56,7 +56,7 @@ export default function Home() {
           </div>
 
           <div className="flex-none w-[75vw] sm:w-[45vw] md:w-[30vw] lg:w-[22vw] snap-start relative group cursor-pointer">
-            <Link href="/product/void-pant">
+            <Link href="/product/void-pant-02">
               <div className="relative overflow-hidden aspect-[3/4] mb-6 border border-zinc-900 group-hover:border-[#C0FF00]/50 transition-colors">
                 <img className="w-full h-full object-cover grayscale group-hover:grayscale-0 transition-all duration-700" alt="action shot" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDP9zimxaMGrtuj1rq7LSfye-5uvvmiPP8q4gNvNW58tkFXRJd4eWgaNTynfXQbSypXjAPPsSUyrGHNeaE7AB1AT-gAfeJV_dVDVkbEuMUSMJXdu7IZycd-JhVXb744T_gqfAU5LlqSNx1uUzm7tlT4upHZAR-dhCJgfOqUvfCJRWwOWEuzILAqSvUFuo9nFq4Btrvc7nj0y0Lbd3t8RwjeBpigkcIjhjnSfS6kWFalOwe9EWx18USgITIRdImUaT-GGHAImkAApkc"/>
               </div>

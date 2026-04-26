@@ -13,7 +13,7 @@ export default function Home() {
         <div className="relative z-20 text-center px-6">
           <h1 className="font-display-hero text-6xl sm:text-8xl md:text-display-hero uppercase mb-4 text-white mix-blend-difference tracking-tighter">BORNLIFT</h1>
           <p className="font-label-technical text-[10px] md:text-label-technical text-zinc-400 mb-8 md:mb-12 tracking-[0.2em] md:tracking-[0.5em] uppercase">// PERFORMANCE PROTOCOL FOR THE 0.1%</p>
-          <Link href="/shop" className="inline-flex items-center justify-center px-10 md:px-12 py-4 md:py-5 bg-[#C0FF00] text-black font-headline-md text-xs md:text-sm rounded-full tracking-widest hover:scale-105 active:scale-95 transition-transform duration-300 font-bold uppercase">
+          <Link href="#explore" className="inline-flex items-center justify-center px-10 md:px-12 py-4 md:py-5 bg-[#C0FF00] text-black font-headline-md text-xs md:text-sm rounded-full tracking-widest hover:scale-105 active:scale-95 transition-transform duration-300 font-bold uppercase">
             EXECUTE_COMMAND
           </Link>
         </div>
@@ -31,7 +31,7 @@ export default function Home() {
       </div>
 
       {/* Product Slider - ELITE ARMOR */}
-      <section className="bg-black py-20 md:py-32 overflow-hidden">
+      <section id="explore" className="bg-black py-20 md:py-32 overflow-hidden scroll-mt-20">
         <div className="px-6 md:px-8 mb-12 md:mb-20 flex justify-between items-end">
           <div>
             <span className="font-label-technical text-label-technical text-[#C0FF00] mb-4 block">01 // THE SELECTION</span>

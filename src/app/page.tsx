@@ -14,7 +14,7 @@ export default function Home() {
           <h1 className="font-display-hero text-6xl sm:text-8xl md:text-display-hero uppercase mb-4 text-white mix-blend-difference tracking-tighter">BORNLIFT</h1>
           <p className="font-label-technical text-[10px] md:text-label-technical text-zinc-400 mb-8 md:mb-12 tracking-[0.2em] md:tracking-[0.5em] uppercase">// PERFORMANCE PROTOCOL FOR THE 0.1%</p>
           <Link href="#explore" className="inline-flex items-center justify-center px-10 md:px-12 py-4 md:py-5 bg-[#C0FF00] text-black font-headline-md text-xs md:text-sm rounded-full tracking-widest hover:scale-105 active:scale-95 transition-transform duration-300 font-bold uppercase">
-            EXECUTE_COMMAND
+            EXPLORE_PRODUCTS
           </Link>
         </div>
         <div className="absolute left-8 bottom-24 rotate-[-90deg] origin-left z-20 hidden lg:block">

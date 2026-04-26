@@ -3,14 +3,14 @@ import Link from "next/link";
 const GALLERY_ITEMS = [
   {
     id: 1,
-    title: "URBAN_ELITE",
-    description: "NIGHT_TRAINING // HONG KONG SECTOR",
+    title: "URBAN_STYLE",
+    description: "NIGHT_TRAINING // HONG KONG",
     image: "https://lh3.googleusercontent.com/aida-public/AB6AXuArUXDQze2CMUvMpHmXx077pJ2n9I7GtuHHsKUzSppqFDPyQ4GHV1-Z_osI3csXfMOfWWVVstlCZCXOwOAsSM1T4fdQyTvrX1tvyfihQOrVPZt_zwlzcCmlQWWAmP4oFsMKKFswyhccAm4mdtiSmBlO6X39h5ji2N8G4RBrO3iZt_Cpm98_DlIG19YL9vAn7ItD3PwlDZBMyax67QB0cvwBdKBNlBgtUcNX54w8JwUmcUIvXItywcg17K_xkWWFKTfLAUUZwIS4Un4"
   },
   {
     id: 2,
-    title: "VOID_STRETCH",
-    description: "EXPLOSIVE_POWER // R&D CENTER",
+    title: "CORE_STRETCH",
+    description: "EXPLOSIVE_POWER // TRAINING CENTER",
     image: "https://lh3.googleusercontent.com/aida-public/AB6AXuDP9zimxaMGrtuj1rq7LSfye-5uvvmiPP8q4gNvNW58tkFXRJd4eWgaNTynfXQbSypXjAPPsSUyrGHNeaE7AB1AT-gAfeJV_dVDVkbEuMUSMJXdu7IZycd-JhVXb744T_gqfAU5LlqSNx1uUzm7tlT4upHZAR-dhCJgfOqUvfCJRWwOWEuzILAqSvUFuo9nFq4Btrvc7nj0y0Lbd3t8RwjeBpigkcIjhjnSfS6kWFalOwe9EWx18USgITIRdImUaT-GGHAImkAApkc"
   },
   {
@@ -21,20 +21,20 @@ const GALLERY_ITEMS = [
   },
   {
     id: 4,
-    title: "THERMO_SHIFT",
-    description: "COLD_EXPOSURE // NORDIC SECTOR",
+    title: "THERMO_COLLECTION",
+    description: "COLD_EXPOSURE // NORDIC REGION",
     image: "https://lh3.googleusercontent.com/aida-public/AB6AXuAL5PemMba1hUc8XuYWgGD-WmxnfQblwSPwBXb0oa4a1KkjKCRbp0sVn_EaT108KBZjpg50Q8PWn8YcKmcAfF99uiA2RFPbkRoBshxKhqo4-Sx_Dx08E1TpYH0Fsvg5MK4904fiKBzyJo3KugRhX8beWt3Ag_Kre3Qsi5B9At1-8neOm7bdpowmrhmJuvCLL8XJRmSo63uFWUaD5foUfIwDWbb7u-EYF6HT8lmZgBezQ7EngQ0hHI5nyoWt0k8trptz7QPIfN3rxt8"
   },
   {
     id: 5,
-    title: "KINETIC_FRAME",
-    description: "AGILITY_DRILLS // UNDERGROUND_LAB",
+    title: "KINETIC_GEAR",
+    description: "AGILITY_DRILLS // TRAINING_FACILITY",
     image: "https://lh3.googleusercontent.com/aida-public/AB6AXuBruoeIxucCMHUMUlgwIFrudAVyN6YJgi4r_Duq36PRQJjvBMLkyve6IlwkEfzvoQhykF0I9WYnkPlU3rexHXKMGLzF5aTwRGBl5K6SUjazzDB4NnFFRgY1V-R8dKl0A7ujphVteTZ1K94vySJtL0v3Z3X6geIaJmqjk7XQJXbRY9d2uNhEgwKuqpXYXVLdcw-wvS8ijRoRJU697zg6JGkPQ_aDDWi3fq6Nh1qdx04vK1BlIBPP0ATmF7H5dT-k1F9B_HIGW31ANxY"
   },
   {
     id: 6,
-    title: "STEALTH_TACTIC",
-    description: "DYNAMIC_MOVEMENT // INDUSTRIAL_CORE",
+    title: "STEALTH_GEAR",
+    description: "DYNAMIC_MOVEMENT // INDUSTRIAL_ZONE",
     image: "https://lh3.googleusercontent.com/aida-public/AB6AXuChh_1jOc14LTF8VnyUPPwOkOt16TwNOFYCcCdpTdlKB3P9E0MQJaUPzItMJxoaZrvP3r0zYkFk8U-yoxpAK_AP-5JTBuCjo51ik-20cmeYptylzcEo0RoaGQJCyZ2MdETtHtvjNUJ0K9X6gTOZwO1Uv0RUupkJP4aS2TViau2a3ZFhOZtp2rT8m3DaTPfkkXeG45wquTSYV2lWZ7kYuRTqWc1xmOwCXZ21WmfgWk7nuBfQNoG56owN7YQzzJH848FRQBG8r13QL98"
   }
 ];
@@ -43,9 +43,9 @@ export default function Gallery() {
   return (
     <main className="pt-32 min-h-screen bg-black pb-40">
       <section className="px-8 max-w-[1600px] mx-auto mb-16 text-center">
-        <span className="font-label-technical text-[#C0FF00] tracking-widest uppercase mb-4 block">// FIELD_TEST_DATA</span>
+        <span className="font-label-technical text-zinc-500 tracking-widest uppercase mb-4 block">// PRODUCT SHOWCASE</span>
         <h1 className="font-display-hero text-7xl md:text-8xl text-white uppercase italic tracking-tighter mb-4">GALLERY</h1>
-        <p className="font-label-technical text-zinc-500 uppercase tracking-[0.2em]">EQUIPMENT IN DYNAMIC_ENVIRONMENTS</p>
+        <p className="font-label-technical text-zinc-500 uppercase tracking-[0.2em]">PERFORMANCE IN ACTION</p>
       </section>
 
       <section className="px-4 md:px-8 max-w-[1800px] mx-auto">
@@ -72,12 +72,12 @@ export default function Gallery() {
 
       <section className="mt-40 text-center px-8">
          <div className="max-w-2xl mx-auto space-y-8">
-            <h2 className="font-headline-lg text-4xl text-white uppercase italic">WANNA BE FEATURED?</h2>
+            <h2 className="font-headline-lg text-4xl text-white uppercase italic">WANT TO BE FEATURED?</h2>
             <p className="font-body-md text-zinc-500 leading-relaxed uppercase tracking-widest text-xs">
-              UPLOAD YOUR LOADOUT TO INSTAGRAM WITH #BORNLIFT PROTOCOL FOR A CHANCE TO BE ARCHIVED IN OUR GALLERY.
+              SHARE YOUR LOOK ON INSTAGRAM WITH #BORNLIFT FOR A CHANCE TO BE FEATURED IN OUR GALLERY.
             </p>
-            <Link href="/contact" className="inline-block border border-white text-white px-10 py-4 font-bold uppercase tracking-widest hover:bg-white hover:text-black transition-all">
-               JOIN_THE_ELITE
+            <Link href="/shop" className="inline-block border border-white text-white px-10 py-4 font-bold uppercase tracking-widest hover:bg-white hover:text-black transition-all">
+               SHOP_COLLECTION
             </Link>
          </div>
       </section>

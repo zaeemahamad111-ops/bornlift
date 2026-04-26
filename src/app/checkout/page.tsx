@@ -9,7 +9,7 @@ export default function Checkout() {
              <span className="material-symbols-outlined text-[14px]">arrow_back</span>
              BACK_TO_CART
           </Link>
-          <h1 className="font-headline-lg text-4xl md:text-headline-lg uppercase text-white tracking-tighter italic leading-none">CHECKOUT_TERMINAL</h1>
+          <h1 className="font-headline-lg text-4xl md:text-headline-lg uppercase text-white tracking-tighter italic leading-none">CHECKOUT</h1>
         </div>
 
         <div className="grid grid-cols-12 gap-16">
@@ -19,7 +19,7 @@ export default function Checkout() {
             <div className="space-y-8">
               <div className="flex items-center gap-4">
                 <span className="w-8 h-8 rounded-full border border-[#C0FF00] text-[#C0FF00] flex items-center justify-center font-label-technical text-xs">01</span>
-                <h2 className="font-headline-md text-white uppercase tracking-widest text-lg">SHIPPING_DATA</h2>
+                <h2 className="font-headline-md text-white uppercase tracking-widest text-lg">SHIPPING_INFORMATION</h2>
               </div>
               
               <div className="grid grid-cols-2 gap-6">
@@ -32,11 +32,11 @@ export default function Checkout() {
                   <input type="text" className="w-full bg-zinc-950 border border-zinc-800 focus:border-[#C0FF00] focus:ring-0 text-white p-4 font-label-technical" />
                 </div>
                 <div className="col-span-2 space-y-2">
-                  <label className="font-label-technical text-[10px] text-zinc-600 uppercase tracking-widest">DESTINATION_ADDRESS</label>
+                  <label className="font-label-technical text-[10px] text-zinc-600 uppercase tracking-widest">SHIPPING_ADDRESS</label>
                   <input type="text" className="w-full bg-zinc-950 border border-zinc-800 focus:border-[#C0FF00] focus:ring-0 text-white p-4 font-label-technical" />
                 </div>
                 <div className="col-span-1 space-y-2">
-                  <label className="font-label-technical text-[10px] text-zinc-600 uppercase tracking-widest">SECTOR_CITY</label>
+                  <label className="font-label-technical text-[10px] text-zinc-600 uppercase tracking-widest">CITY</label>
                   <input type="text" className="w-full bg-zinc-950 border border-zinc-800 focus:border-[#C0FF00] focus:ring-0 text-white p-4 font-label-technical" />
                 </div>
                 <div className="col-span-1 space-y-2">
@@ -50,21 +50,21 @@ export default function Checkout() {
             <div className="space-y-8">
               <div className="flex items-center gap-4">
                 <span className="w-8 h-8 rounded-full border border-[#C0FF00] text-[#C0FF00] flex items-center justify-center font-label-technical text-xs">02</span>
-                <h2 className="font-headline-md text-white uppercase tracking-widest text-lg">PAYMENT_PROTOCOL</h2>
+                <h2 className="font-headline-md text-white uppercase tracking-widest text-lg">PAYMENT_METHOD</h2>
               </div>
               
               <div className="space-y-4">
                 <div className="p-6 border border-[#C0FF00] bg-zinc-950/40 flex justify-between items-center cursor-pointer">
                    <div className="flex items-center gap-4">
                       <span className="material-symbols-outlined text-[#C0FF00]">credit_card</span>
-                      <span className="font-label-technical text-white text-sm">ENCRYPTED_CARD_GATEWAY</span>
+                      <span className="font-label-technical text-white text-sm">CREDIT_/_DEBIT_CARD</span>
                    </div>
                    <div className="w-4 h-4 rounded-full border-4 border-[#C0FF00]"></div>
                 </div>
                 <div className="p-6 border border-zinc-900 bg-zinc-950/20 flex justify-between items-center opacity-50 cursor-not-allowed">
                    <div className="flex items-center gap-4">
                       <span className="material-symbols-outlined text-zinc-600">account_balance_wallet</span>
-                      <span className="font-label-technical text-zinc-500 text-sm">CRYPTO_ASSET_TRANSFER</span>
+                      <span className="font-label-technical text-zinc-500 text-sm">CRYPTOCURRENCY</span>
                    </div>
                    <div className="w-4 h-4 rounded-full border border-zinc-800"></div>
                 </div>
@@ -72,7 +72,7 @@ export default function Checkout() {
 
               <div className="space-y-6 pt-4">
                 <div className="space-y-2">
-                  <label className="font-label-technical text-[10px] text-zinc-600 uppercase tracking-widest">CARD_IDENTIFIER</label>
+                  <label className="font-label-technical text-[10px] text-zinc-600 uppercase tracking-widest">CARD_NUMBER</label>
                   <input type="text" placeholder="XXXX XXXX XXXX XXXX" className="w-full bg-zinc-950 border border-zinc-800 focus:border-[#C0FF00] focus:ring-0 text-white p-4 font-label-technical" />
                 </div>
                 <div className="grid grid-cols-2 gap-6">
@@ -81,7 +81,7 @@ export default function Checkout() {
                     <input type="text" placeholder="MM / YY" className="w-full bg-zinc-950 border border-zinc-800 focus:border-[#C0FF00] focus:ring-0 text-white p-4 font-label-technical" />
                   </div>
                   <div className="col-span-1 space-y-2">
-                    <label className="font-label-technical text-[10px] text-zinc-600 uppercase tracking-widest">SECURITY_KEY (CVV)</label>
+                    <label className="font-label-technical text-[10px] text-zinc-600 uppercase tracking-widest">CVV</label>
                     <input type="text" placeholder="XXX" className="w-full bg-zinc-950 border border-zinc-800 focus:border-[#C0FF00] focus:ring-0 text-white p-4 font-label-technical" />
                   </div>
                 </div>
@@ -92,7 +92,7 @@ export default function Checkout() {
           {/* Order Summary Sidebar */}
           <aside className="col-span-12 lg:col-span-5">
             <div className="sticky top-32 border border-zinc-900 bg-zinc-950 p-8 space-y-8">
-               <h3 className="font-headline-md text-white uppercase tracking-widest text-sm border-b border-zinc-900 pb-4">SPECIMEN_SUMMARY</h3>
+               <h3 className="font-headline-md text-white uppercase tracking-widest text-sm border-b border-zinc-900 pb-4">ORDER_SUMMARY</h3>
                
                <div className="space-y-6 max-h-[300px] overflow-y-auto custom-scrollbar pr-4">
                   <div className="flex gap-4 items-center">
@@ -137,11 +137,11 @@ export default function Checkout() {
                </div>
 
                <button className="w-full bg-[#C0FF00] text-black font-black py-6 uppercase tracking-widest hover:bg-white active:scale-[0.98] transition-all duration-300">
-                  AUTHORIZE_PAYMENT
+                  PLACE_ORDER
                </button>
                
                <p className="text-[9px] text-zinc-700 font-label-technical text-center uppercase tracking-widest italic leading-relaxed">
-                  By authorizing, you agree to the BornLift Deployment Protocols and Data Encryption Standards.
+                  By placing an order, you agree to the BornLift Terms of Service and Privacy Policy.
                </p>
             </div>
           </aside>

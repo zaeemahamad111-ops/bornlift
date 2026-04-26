@@ -12,13 +12,10 @@ export default function Home() {
         <div className="absolute inset-0 z-10 pointer-events-none opacity-20" style={{ backgroundImage: "radial-gradient(circle at 2px 2px, #333 1px, transparent 0)", backgroundSize: "40px 40px" }}></div>
         <div className="relative z-20 text-center px-6">
           <h1 className="font-display-hero text-6xl sm:text-8xl md:text-display-hero uppercase mb-4 text-white mix-blend-difference tracking-tighter">BORNLIFT</h1>
-          <p className="font-label-technical text-[10px] md:text-label-technical text-zinc-400 mb-8 md:mb-12 tracking-[0.2em] md:tracking-[0.5em] uppercase">// PERFORMANCE PROTOCOL FOR THE 0.1%</p>
+          <p className="font-label-technical text-[10px] md:text-label-technical text-zinc-400 mb-8 md:mb-12 tracking-[0.2em] md:tracking-[0.5em] uppercase">Premium Athletic Gear for Peak Performance</p>
           <Link href="#explore" className="inline-flex items-center justify-center px-10 md:px-12 py-4 md:py-5 bg-[#C0FF00] text-black font-headline-md text-xs md:text-sm rounded-full tracking-widest hover:scale-105 active:scale-95 transition-transform duration-300 font-bold uppercase">
-            EXPLORE_PRODUCTS
+            SHOP NOW
           </Link>
-        </div>
-        <div className="absolute left-8 bottom-24 rotate-[-90deg] origin-left z-20 hidden lg:block">
-          <span className="font-label-technical text-label-technical text-[#C0FF00]">SYSTEM_STATUS: ACTIVE</span>
         </div>
       </section>
 
@@ -34,11 +31,11 @@ export default function Home() {
       <section id="explore" className="bg-black py-20 md:py-32 overflow-hidden scroll-mt-20">
         <div className="px-6 md:px-8 mb-12 md:mb-20 flex justify-between items-end">
           <div>
-            <span className="font-label-technical text-label-technical text-[#C0FF00] mb-4 block">01 // THE SELECTION</span>
-            <h2 className="font-headline-lg text-4xl md:text-headline-lg text-white uppercase italic">ELITE_ARMOR</h2>
+            <span className="font-label-technical text-label-technical text-zinc-500 mb-4 block uppercase">01 // COLLECTION</span>
+            <h2 className="font-headline-lg text-4xl md:text-headline-lg text-white uppercase italic">NEW_ARRIVALS</h2>
           </div>
           <div className="hidden md:block font-label-technical text-label-technical text-zinc-500 text-right uppercase">
-            SWIPE TO EXPLORE_PROTOTYPES<br/>TECH_VERSION 4.2.0
+            EXPLORE OUR LATEST<br/>TECHNICAL GEAR
           </div>
         </div>
         
@@ -147,34 +144,34 @@ export default function Home() {
             <div className="bg-zinc-900/30 border border-zinc-900 p-8 flex flex-col justify-between">
               <span className="material-symbols-outlined text-[#C0FF00] text-4xl">monitoring</span>
               <div>
-                <h5 className="font-headline-md text-xl md:text-headline-md text-white mb-2 uppercase">BIOMETRIC_STITCH</h5>
-                <p className="font-label-annotation text-label-annotation text-zinc-500 uppercase text-[9px] md:text-[10px]">REAL-TIME FEEDBACK INTEGRATION READY.</p>
+                <h5 className="font-headline-md text-xl md:text-headline-md text-white mb-2 uppercase">ADVANCED_STITCHING</h5>
+                <p className="font-label-annotation text-label-annotation text-zinc-500 uppercase text-[9px] md:text-[10px]">REINFORCED FOR MAXIMUM DURABILITY.</p>
               </div>
             </div>
             <Link href="/shop" className="bg-[#C0FF00] p-8 flex flex-col justify-between hover:bg-white transition-colors cursor-pointer group">
               <span className="material-symbols-outlined text-black text-4xl group-hover:rotate-45 transition-transform">bolt</span>
               <div>
-                <h5 className="font-headline-md text-xl md:text-headline-md text-black mb-2 uppercase">JOIN_THE_ELITE</h5>
-                <p className="font-label-annotation text-label-annotation text-black/60 uppercase text-[9px] md:text-[10px]">EXCLUSIVE PROTOCOL ACCESS.</p>
+                <h5 className="font-headline-md text-xl md:text-headline-md text-black mb-2 uppercase">SHOP_COLLECTION</h5>
+                <p className="font-label-annotation text-label-annotation text-black/60 uppercase text-[9px] md:text-[10px]">EXPLORE OUR FULL RANGE.</p>
               </div>
             </Link>
           </div>
         </div>
       </section>
 
-      {/* JOIN THE ELITE FULL CTA */}
+      {/* SHOP NOW FULL CTA */}
       <section className="relative h-[500px] md:h-[600px] w-full flex items-center justify-center overflow-hidden border-t border-zinc-900">
         <div className="absolute inset-0 z-0 opacity-40">
-           <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuArUXDQze2CMUvMpHmXx077pJ2n9I7GtuHHsKUzSppqFDPyQ4GHV1-Z_osI3csXfMOfWWVVstlCZCXOwOAsSM1T4fdQyTvrX1tvyfihQOrVPZt_zwlzcCmlQWWAmP4oFsMKKFswyhccAm4mdtiSmBlO6X39h5ji2N8G4RBrO3iZt_Cpm98_DlIG19YL9vAn7ItD3PwlDZBMyax67QB0cvwBdKBNlBgtUcNX54w8JwUmcUIvXItywcg17K_xkWWFKTfLAUUZwIS4Un4" alt="Join Elite" className="w-full h-full object-cover grayscale" />
+           <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuArUXDQze2CMUvMpHmXx077pJ2n9I7GtuHHsKUzSppqFDPyQ4GHV1-Z_osI3csXfMOfWWVVstlCZCXOwOAsSM1T4fdQyTvrX1tvyfihQOrVPZt_zwlzcCmlQWWAmP4oFsMKKFswyhccAm4mdtiSmBlO6X39h5ji2N8G4RBrO3iZt_Cpm98_DlIG19YL9vAn7ItD3PwlDZBMyax67QB0cvwBdKBNlBgtUcNX54w8JwUmcUIvXItywcg17K_xkWWFKTfLAUUZwIS4Un4" alt="Shop Now" className="w-full h-full object-cover grayscale" />
         </div>
         <div className="absolute inset-0 bg-black/60 z-10 backdrop-blur-[2px]"></div>
         
         <div className="relative z-20 text-center max-w-3xl px-8">
-           <span className="material-symbols-outlined text-[#C0FF00] text-4xl md:text-5xl mb-6">fingerprint</span>
-           <h2 className="font-headline-lg text-4xl md:text-7xl lg:text-headline-lg text-white uppercase italic leading-none mb-6">UNYIELDING <br/> PERFORMANCE</h2>
-           <p className="font-body-lg text-sm md:text-body-lg text-zinc-300 mb-8 md:mb-10 leading-relaxed">Stop wearing activewear. Start equipping armor. Join the 0.1% of athletes who demand more from their gear.</p>
+           <span className="material-symbols-outlined text-[#C0FF00] text-4xl md:text-5xl mb-6">shopping_basket</span>
+           <h2 className="font-headline-lg text-4xl md:text-7xl lg:text-headline-lg text-white uppercase italic leading-none mb-6">ELEVATE YOUR <br/> TRAINING</h2>
+           <p className="font-body-lg text-sm md:text-body-lg text-zinc-300 mb-8 md:mb-10 leading-relaxed">Discover our premium range of technical performance gear designed for high-intensity athletes.</p>
            <Link href="/shop" className="inline-flex items-center justify-center px-10 md:px-12 py-4 md:py-5 bg-white text-black font-headline-md text-xs md:text-sm rounded-full tracking-widest hover:bg-[#C0FF00] hover:scale-105 active:scale-95 transition-all duration-300 font-bold uppercase">
-              ACQUIRE GEAR
+              SHOP COLLECTION
            </Link>
         </div>
       </section>

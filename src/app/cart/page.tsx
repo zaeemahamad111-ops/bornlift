@@ -6,11 +6,7 @@ export default function Cart() {
       <div className="max-w-[1400px] mx-auto">
         <div className="mb-8 md:mb-12 flex flex-col md:flex-row md:justify-between md:items-end border-b border-zinc-900 pb-8 gap-6">
           <div>
-            <h1 className="font-headline-lg text-4xl md:text-headline-lg uppercase text-white mb-2 italic">CART_PROTOCOL</h1>
-            <div className="flex items-center gap-4">
-              <span className="h-[1px] w-12 bg-[#C0FF00]"></span>
-              <p className="font-label-technical text-label-technical text-white/40 tracking-[0.3em] uppercase">ACTIVE_SESSIONS: 02</p>
-            </div>
+            <h1 className="font-headline-lg text-4xl md:text-headline-lg uppercase text-white mb-2 italic">SHOPPING_CART</h1>
           </div>
           <Link href="/shop" className="text-zinc-500 font-label-technical hover:text-[#C0FF00] transition-colors underline underline-offset-8">CONTINUE_SHOPPING</Link>
         </div>
@@ -19,7 +15,7 @@ export default function Cart() {
           {/* Cart Items List */}
           <section className="col-span-12 lg:col-span-8 space-y-4">
             <div className="grid grid-cols-12 px-6 py-4 border border-zinc-900 bg-zinc-950 text-zinc-600 font-label-technical text-[10px] uppercase tracking-widest hidden md:grid">
-              <div className="col-span-6">SPECIMEN_DETAILS</div>
+              <div className="col-span-6">PRODUCT_DETAILS</div>
               <div className="col-span-2 text-center">QUANTITY</div>
               <div className="col-span-2 text-right">UNIT_PRICE</div>
               <div className="col-span-2 text-right">TOTAL</div>
@@ -35,7 +31,7 @@ export default function Cart() {
                   <div>
                     <h3 className="font-headline-md text-white uppercase group-hover:text-[#C0FF00] transition-colors"><Link href="/product/kinetic-shell-v1">Kinetic Shell v2</Link></h3>
                     <p className="font-label-technical text-[10px] text-zinc-500 mt-1 tracking-widest">SIZE: L // COL: ONYX</p>
-                    <button className="text-zinc-600 hover:text-red-500 font-label-technical text-[10px] uppercase mt-4 block transition-colors">REMOVE_ENTRY</button>
+                    <button className="text-zinc-600 hover:text-red-500 font-label-technical text-[10px] uppercase mt-4 block transition-colors">REMOVE_ITEM</button>
                   </div>
                 </div>
                 
@@ -65,7 +61,7 @@ export default function Cart() {
                   <div>
                     <h3 className="font-headline-md text-white uppercase group-hover:text-[#C0FF00] transition-colors"><Link href="/product/tech-cargo-04">Tech-Cargo 04</Link></h3>
                     <p className="font-label-technical text-[10px] text-zinc-500 mt-1 tracking-widest">SIZE: 32 // COL: PHANTOM</p>
-                    <button className="text-zinc-600 hover:text-red-500 font-label-technical text-[10px] uppercase mt-4 block transition-colors">REMOVE_ENTRY</button>
+                    <button className="text-zinc-600 hover:text-red-500 font-label-technical text-[10px] uppercase mt-4 block transition-colors">REMOVE_ITEM</button>
                   </div>
                 </div>
                 
@@ -91,15 +87,15 @@ export default function Cart() {
           {/* Summary Sidebar */}
           <aside className="col-span-12 lg:col-span-4 space-y-6 h-fit sticky top-32">
             <div className="border border-zinc-800 p-8 bg-zinc-950/40 backdrop-blur-md">
-              <h2 className="font-headline-md text-white uppercase mb-8 border-b border-zinc-900 pb-4 tracking-widest text-sm">// SUMMARY_DATA</h2>
+              <h2 className="font-headline-md text-white uppercase mb-8 border-b border-zinc-900 pb-4 tracking-widest text-sm">// ORDER_SUMMARY</h2>
               
               <div className="space-y-6 mb-10">
                 <div className="flex justify-between items-center">
-                  <span className="font-label-technical text-[11px] text-zinc-500 uppercase">SUBTOTAL_VAL</span>
+                  <span className="font-label-technical text-[11px] text-zinc-500 uppercase">SUBTOTAL</span>
                   <span className="font-body-md text-white">$425.00</span>
                 </div>
                 <div className="flex justify-between items-center">
-                  <span className="font-label-technical text-[11px] text-zinc-500 uppercase">EST_SHIPPING</span>
+                  <span className="font-label-technical text-[11px] text-zinc-500 uppercase">SHIPPING</span>
                   <span className="font-body-md text-white">$12.00</span>
                 </div>
                 <div className="flex justify-between items-center">
@@ -114,13 +110,13 @@ export default function Cart() {
 
               <Link href="/checkout" className="block w-full">
                 <button className="w-full bg-[#C0FF00] text-black font-black py-6 uppercase tracking-widest hover:bg-white active:scale-[0.98] transition-all duration-300">
-                  INITIATE_CHECKOUT
+                  CHECKOUT
                 </button>
               </Link>
             </div>
 
             <div className="p-6 border border-zinc-900 bg-zinc-950/20">
-               <label className="font-label-technical text-[10px] text-zinc-600 mb-3 block tracking-widest">PROMO_PROTOCOL_KEY</label>
+               <label className="font-label-technical text-[10px] text-zinc-600 mb-3 block tracking-widest">PROMO_CODE</label>
                <div className="relative">
                   <input 
                     type="text" 
@@ -133,7 +129,7 @@ export default function Cart() {
 
             <div className="flex items-center gap-3 justify-center text-[10px] text-zinc-700 font-label-technical uppercase tracking-widest">
                <span className="material-symbols-outlined text-[14px]">lock</span>
-               SECURE_ENCRYPTED_SESSION
+               SECURE_CHECKOUT
             </div>
           </aside>
         </div>

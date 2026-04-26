@@ -68,7 +68,7 @@ export default function Header() {
              </Link>
            ))}
            <div className="mt-12 space-y-4">
-              <p className="font-label-technical text-zinc-600 text-[10px] tracking-[0.4em] uppercase">// SECURE_UPLINK</p>
+              <p className="font-label-technical text-zinc-600 text-[10px] tracking-[0.4em] uppercase">NAVIGATION</p>
               <div className="flex gap-6 justify-center">
                  <button className="w-12 h-12 border border-zinc-900 rounded-full flex items-center justify-center text-zinc-500 hover:text-[#C0FF00] hover:border-[#C0FF00] transition-all">
                     <span className="material-symbols-outlined text-sm">public</span>
